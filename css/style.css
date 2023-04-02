@@ -306,6 +306,7 @@ button {
 
 .banner_main {
      background: url(../images/backgroundvideo.mp4);
+     poster: "/images/backgroundvideoscreenshot.jpeg";
      background-repeat: no-repeat;
      min-height: 900px;
      background-size: 100% 100%;
