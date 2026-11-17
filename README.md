@@ -4,7 +4,7 @@ A lightweight, responsive one-page website for SysProtect, an independent cyber 
 
 ## What's included
 
-- Clear, credible description of consulting areas and project support
+- Nine service areas including threat assessments, incident response, vulnerability management, web security, security monitoring, access management, hardening, policy and contract support
 - Service, process, about, FAQ and contact sections
 - Responsive mobile navigation, keyboard-visible focus indicators and reduced-motion support
 - Accessible HTML, SEO metadata and SVG favicon
@@ -13,7 +13,7 @@ A lightweight, responsive one-page website for SysProtect, an independent cyber 
 
 ## Before publishing to clients
 
-**1. Business email (required).** The old website had no functioning contact form. Set a dedicated **business** email in `config.js` by replacing the empty value of `window.SYSPROTECT_CONTACT_EMAIL`. This automatically converts the main CTA into a working `mailto:` link. Until then, it points to the repository owner's GitHub profile and explicitly says contact details are pending. Do not publish someone's personal email without their approval.
+**1. Enquiries (optional for now).** No email is needed to publish the site. It clearly states that enquiries are not yet open; the profile link is for background only, not for emergency reporting. To enable email enquiries later, set an approved **business** email in `config.js` using `window.SYSPROTECT_CONTACT_EMAIL`. This converts the contact CTA into a `mailto:` link without needing a new form.
 
 **2. Confirm the offer.** Review the services and geographic/remote wording against actual skills, insurance, capacity and preferred client work. None of the listed service areas is a guarantee of specific certifications or accreditations.
 
@@ -29,7 +29,7 @@ For a local static preview, from the repository root:
 python3 -m http.server 8000
 ```
 
-Visit http://localhost:8000. GitHub Pages can publish the `main` branch at `/(root)`; check **Settings → Pages** to confirm the publishing source. This PR is intentionally a review branch until content and contact details are confirmed.
+Visit http://localhost:8000. GitHub Pages can publish the `main` branch at `/(root)`; check **Settings → Pages** to confirm the publishing source. No build is required.
 
 ## Files
 
@@ -40,4 +40,4 @@ Visit http://localhost:8000. GitHub Pages can publish the `main` branch at `/(ro
 - `favicon.svg` — identity mark
 - `about.html`, `service.html`, `contact.html`, `blog.html` — legacy URL redirects
 
-Original theme assets remain in the repository for now so the redesign can be easily reviewed without destructive bulk deletion. They are not loaded by the new site.
+The obsolete HTML theme libraries, stock images, fonts and large video files have been removed from the current tree to keep the site maintainable. Git history still preserves earlier versions for recovery.
